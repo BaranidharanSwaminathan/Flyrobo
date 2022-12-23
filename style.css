@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Rajdhani:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.outerdiv{
+    padding:30px;
+    background: #fcfcfc;
+}
+.left-content{
+    width: 40%;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+.left-content img{
+    width:100%;
+}
+.industries {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+.industries::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #1989fb;
+    position: absolute;
+    top: 9px;
+    left: -70px;
+    display: inline-block;
+}
+.left-decrptn {
+    width: 35%;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.right-content {
+    width: 57.333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.img-specs{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    border: 5px solid #f4f4f4;
+    margin: 0 90px 40px 0;
+    position:relative;
+}
+.img-specs:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 200px;
+    height: 6px;
+    background-color: #1395de;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.2s linear;
+}
+.img-specs:hover:before{
+    height:12px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.2s linear;
+}
+.img-specs:hover .right-descrptn h4{
+    font-weight: 700;
+}
+.warehouse-img {
+    background: url(./images/warehouse-img.svg) no-repeat center center;
+}
+.Telecom-img{
+    background: url(./images/telecom.svg) no-repeat center center;
+}
+.medical-img{
+    background: url(./images/medical.svg) no-repeat center center;
+}
+.banking-img{
+    background: url(./images/banking.svg) no-repeat center center;
+}
+.right-descrptn {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    right: -158px;
+    top: 58px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right-descrptn strong{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.right-descrptn h4{
+    margin-top:16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.heading{
+    text-align: center;
+    color: #39364e;
+}
+.heading h1{
+    margin:40px 0 0 0;
+}
+.heading p{
+    padding-bottom: 10px;
+    margin:0;
+}
+.left-area {
+    width: 35%;
+    padding: 0 15px;
+    float:left;
+}
+.img-1{
+    background: url(./images/captivatingFeaturesList1.svg);
+    background-color: #d4e4fd;
+}
+.img-2{
+    background: url(./images/captivatingFeaturesList2.svg);
+    background-color: #bef3e3;
+}
+.img-3{
+    background: url(./images/captivatingFeaturesList3.svg);
+    background-color: #fff1ce;
+}
+.img-4{
+    background: url(./images/captivatingFeaturesList4.svg);
+    background-color: #efdbff;
+}
+.img-5{
+    background: url(./images/captivatingFeaturesList5.svg);
+    background-color: #b1ebff;
+}
+.img-design {
+    border-radius: 40%;
+    height: 80px;
+    width: 80px;
+    background-size: 40px auto;
+    background-position: center;
+    position: absolute;
+    top: 36px;
+    right: 22px;
+    background-repeat: no-repeat;
+}
+.left-list {
+    position: relative;
+    padding: 25px 130px 25px 16px;
+    text-align: right;
+}
+.left-list h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin:10px 0;
+}
+.left-list p{
+    font-size: 14px;
+}
+
+.right-area{
+    width:35%;
+    float:right;
+    padding: 0 15px;
+}
+.right-list {
+    position: relative;
+    padding: 25px 16px 29px 110px;
+    text-align: left;
+}
+.right-list h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin:10px 0;
+}
+.right-list p{
+    font-size: 14px;
+}
+.right-img-1{
+    background: url(./images/captivatingFeaturesList6.svg);
+    background-color: #fbd3d3;
+}
+.right-img-2{
+    background: url(./images/captivatingFeaturesList7.svg);
+    background-color: #e1e4ff;
+}
+.right-img-3{
+    background: url(./images/captivatingFeaturesList8.svg);
+    background-color: #ffd9ee;
+}
+.right-img-4{
+    background: url(./images/captivatingFeaturesList9.svg);
+    background-color: #fff3b7;
+}
+.right-img-5{
+    background: url(./images/captivatingFeaturesList10.svg);
+    background-color: #cee9d6;
+}
+.right-img-design {
+    border-radius: 40%;
+    height: 80px;
+    width: 80px;
+    background-size: 40px auto;
+    background-position: center;
+    position: absolute;
+    top: 36px;
+    left:0;
+    background-repeat: no-repeat;
+}
+.drone {
+    width: 25%;
+    display: inline-block;
+}
+.drone-pic {
+    width: 280px;
+    margin: 220px auto;
+}
+.drone-pic img{
+    width: 100%;
+    animation: slide-up 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes slide-up{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+@media only screen and (max-width:1024px){
+    section.sec-1 {
+        width: 1024px;
+    }
+    .warehouse-box {
+        margin: 40px 27px 40px -5px;
+        padding-top: 0px;
+        width: 200px;
+        height: 225px;
+    }
+    .left-decrptn {
+        width: 28%;
+    }
+    .left-content {
+        width: 100%;
+    }
+    .right-content {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 96%;
+    }
+    .right-descrptn {
+        right: 0px;
+        top: 100px;
+        text-align: center;
+    }
+    .drone {
+        display: none;
+    }
+    .left-area {
+        width: 44%;
+        padding: 0 0px 0 65px;
+        float: left;
+    }
+    .left-list {
+        position: relative;
+        padding: 22px 110px 20px 10px;
+        text-align: right;
+    }
+    .right-area {
+        float: right;
+        padding: 0 30px 0 0;
+        width: 44%;
+    }
+    .right-list {
+        position: relative;
+        padding: 20px 30px 20px 110px;
+        text-align: left;
+    }
+    .img-specs {
+        margin: 0 30px 40px 0;
+        height:225px;
+    }
+    .warehouse-img,.Telecom-img,.medical-img,.banking-img {
+        background-size: 60px auto;
+        background-position: center 36px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .outerdiv2{
+        width: 1020px;
+    }
+    .heading{
+        width: 100%;
+    }
+    .left-content img{
+        display:none;
+    }
+    .left-content {
+        width: 100%;
+        text-align: center;
+    }
+    .left-decrptn {
+        width: auto;
+        font-size: 25px;
+    }
+    .industries {
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .industries::before {
+        content: "";
+        top: -10px;
+        left: 10px;
+        right: 0;
+        width: 70px;
+    }
+    .right-content {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        flex-wrap: wrap;
+    }
+    .left-area {
+        width: auto;
+        padding: 0 25px;
+        float: none;
+    }
+    .left-list {
+        padding: 22px 10px 20px 110px;
+        text-align: left;
+    }
+    .img-design{
+        left:0;
+    }
+    .right-area {
+        width:auto;
+        float: none;
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width:416px){
+    .img-design{
+        height: 140px;
+        width: 140px;
+    }
+    .heading h1 {
+        margin: 40px 0 0 0;
+        font-size: 40px;
+    }
+    .heading p {
+        padding-bottom: 40px;
+        margin: 0;
+        font-size: 30px;
+    }
+    .industries {
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+    .industries::before {
+        content: "";
+        top: -32px;
+        left: 25px;
+        right: 0;
+        width: 120px;
+        height: 4px;
+    }
+    .left-decrptn {
+        width: auto;
+        font-size: 45px;
+    }
+    .left-list {
+        padding: 22px 10px 20px 170px;
+    }
+    .left-list h3 {
+        font-size: 40px;
+    }
+    .left-list p {
+        font-size: 35px;
+    }
+    .right-content {
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .right-list{
+        padding: 20px 30px 20px 170px;
+    }
+    .right-img-design{
+        height: 140px;
+        width: 140px;
+    }
+    .right-list h3 {
+        font-size: 40px;
+    }
+    .right-list p {
+        font-size: 35px;
+    }
+    .box{
+        width:50%;
+    }
+    .warehouse-img, .Telecom-img, .medical-img, .banking-img {
+        background-size: 140px auto;
+    }
+    .img-specs {
+        margin: 0 20px 40px 20px;
+        height: 438px;
+        width: 87%;
+    }
+    .img-specs:before {
+        width: 100%;
+    }
+    .right-descrptn {
+        right: 110px;
+        top: 221px;
+        text-align: center;
+    }
+    .right-descrptn strong {
+        font-size: 39px;
+    }
+    .right-descrptn h4 {
+        font-size: 39px;
+    }
+}
